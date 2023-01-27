@@ -1,0 +1,31 @@
+patch:
+  # 無拼音混打
+  "abc_segmentor/extra_tags": {}
+  # 簡繁
+  "translator/enable_charset_filter": false
+  "translator/enable_encoder": false
+  "translator/encode_commit_history": false
+  "translator/max_phrase_length": 1
+  # 關閉用戶詞典和字頻調整
+  "translator/enable_user_dict": false
+  "translator/disable_user_dict_for_patterns/+":
+    - "^[a-x]$"
+
+  "speller/max_code_length": 5
+  "speller/auto_select": true
+
+  #"reverse_lookup/prism": double_pinyin_mspy
+  #"reverse_lookup/tips": 【雙拼】
+
+  #"reverse_lookup/tags": [ td_pinyin_mspy ]
+  #"reverse_lookup/tips": 【帶調雙拼】
+
+  #"reverse_lookup/prism": terra_pinyin
+  #"reverse_lookup/tags": [ terra_pinyin ]
+  #"reverse_lookup/tips": 【帶調拼音】
+  #"reverse_lookup/dictionary": terra_pinyin
+
+  #"reverse_lookup/preedit_format": []
+
+  "punctuator/import_preset": symbols
+  "recognizer/patterns/punct": '^/([0-9]0?|[A-Za-z]+)$'
