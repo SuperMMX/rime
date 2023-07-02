@@ -1,9 +1,5 @@
 patch:
   "menu/page_size": 8
   schema_list:
-    - schema: xuma_forfudan
-      #- schema: xuma2022forfudan_ergo
+    - schema: yuhao
     - schema: cangjie5
-      #- schema: double_pinyin_mspy
-      #- schema: terra_pinyin
-      #- schema: td_pinyin_mspy
